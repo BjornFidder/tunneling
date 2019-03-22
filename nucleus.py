@@ -15,3 +15,4 @@ class Nucleus(VGroup):
                 self.add(Proton(color = BLACK, fill_color=RED_E, fill_opacity=1).move_to(random_direction(size/300)))
             else:
                 self.add(Neutron(color = BLACK, fill_color=BLUE_E, fill_opacity=1).move_to(random_direction(size/300))
+                         
